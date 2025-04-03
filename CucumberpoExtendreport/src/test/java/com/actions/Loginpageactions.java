@@ -24,7 +24,7 @@ public class Loginpageactions {
     public void Login() {
         Properties prop = new Properties();
         try {
-            File file = new File("C:\\Users\\ADMIN\\eclipse-TestngAssessment\\CucumberpoExtendreport\\src\\test\\resources\\testdata.properties"); 
+            File file = new File("C:\\Users\\ADMIN\\git\\cucumberextendreport\\CucumberpoExtendreport\\src\\test\\resources\\testdata.properties"); 
             FileInputStream fis = new FileInputStream(file);
             prop.load(fis);
             fis.close();
